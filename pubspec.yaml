@@ -1,0 +1,25 @@
+name: flutter_maps
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  google_maps_flutter: ^0.5.21+15
+  location: ^2.3.5
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  webview_flutter: ^0.3.22+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/bubble_blue.png
+
